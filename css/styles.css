@@ -80,7 +80,7 @@ header a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 20px;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 p {
@@ -187,7 +187,7 @@ footer a:hover {
   float: right;
 }
 
-.footer-nav {
+#footer-nav {
   display: none;
 }
 
@@ -286,6 +286,13 @@ footer a:hover {
   margin: 0;
 }
 
+#contact p {
+  margin-top: 0;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
   .clearfix::after {
     content: "";
     clear: both;
@@ -343,13 +350,14 @@ footer a:hover {
 @media(min-width: 1024px) {
   h1 {
     display: inline-block;
-    max-width: 400px;
-    padding-left: 80px;
+    max-width: 700px;
+    padding-left: 150px;
+    font-size: 8rem;
   }
 
   nav {
     display: inline-block;
-    padding-left: 15%;
+    padding-left: 18%;
   }
 
   header ul {
@@ -372,12 +380,17 @@ footer a:hover {
 
   .bio {
     text-align: left;
-    padding-top: 3%;
+    padding-top: 0;
+    font-size: 2.25rem;
   }
 
   .profile-pic {
-    width: 350px;
+    width: 250px;
     height: auto;
+    position: absolute;
+    right: 250px;
+    bottom: 250px;
   }
+
 
 }
