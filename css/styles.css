@@ -313,10 +313,6 @@ footer a:hover {
     overflow: auto;
   }
 
-  .footer-container {
-    clear: both;
-  }
-
   .footer-link {
     display: none;
   }
@@ -365,16 +361,7 @@ footer a:hover {
   nav {
     float: right;
   }
-/*
-  nav {
-    display: inline-block;
-    padding-left: 18%;
-  }
 
-  header ul {
-    display: inline-block;
-  }
-*/
   header ul li {
     font-size: 1.7rem;
     padding: 75px 10px 0 10px;
